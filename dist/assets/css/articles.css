@@ -26,6 +26,7 @@
   padding-right: 14px;
 }
 .article .article-content-container .article-image-container img {
+  width: 100%;
   max-width: 358px;
 }
 .article .article-content-container .article__content-text {

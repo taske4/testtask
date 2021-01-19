@@ -1,9 +1,40 @@
+.pagination-container {
+  margin-top: 50px;
+}
+
 .pagination {
   margin: 0;
   padding: 0;
   list-style: none;
+  flex-wrap: wrap;
+}
+.pagination .page-item {
+  padding: 9px 14px 11px;
+  border-radius: 4px;
+}
+@media (max-width: 767.98px) {
+  .pagination .page-item {
+    margin-top: 9px;
+  }
+}
+.pagination .page-item + .page-item {
+  margin-left: 14px;
 }
 .pagination .page-item .page-link {
   text-decoration: none;
+  font-family: Helvetica;
   font-size: 16px;
+  color: #1F1F1F;
+}
+.pagination .page-item--colored {
+  background: #1A4081;
+}
+.pagination .page-item--colored .page-link {
+  color: #fff;
+}
+.pagination .page-prev, .pagination .page-next {
+  padding: 9px 21px 11px;
+}
+.pagination .page-prev {
+  margin-right: 20px;
 }
