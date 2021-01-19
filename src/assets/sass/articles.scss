@@ -1,0 +1,52 @@
+$black-font: #1F1F1F;
+
+.article {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 30px 176px 50px 30px;
+  background: #fff;
+
+  + .article {
+    margin-top: 10px;
+  }
+
+  .article__title {
+    margin: 0;
+    font-size: 24px;
+    color: $black-font;
+  }
+
+  time {
+    margin-top: 7px;
+    opacity: 0.4;
+    color: $black-font;
+    font-size: 11px;
+    font-family: 'Helvetica';
+  }
+
+  .article-content-container {
+    margin-top: 13px;
+
+    .article-image-container {
+      padding-right: 14px;
+
+      img {
+        max-width: 358px;
+      }
+    }
+
+    .article__content-text {
+      color: $black-font;
+      font-size: 18px;
+      line-height: 150%;
+
+      .article__content-address {
+        margin-top: 45px;
+        display: block;
+        color: #1a4081;
+        font-style: normal;
+        text-decoration: none;
+      }
+    }
+  }
+}
