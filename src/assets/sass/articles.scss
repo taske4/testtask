@@ -6,6 +6,10 @@ $black-font: #1F1F1F;
   padding: 30px 176px 50px 30px;
   background: #fff;
 
+  @media (max-width: 767.98px) {
+    padding: 1em 2em 1em;
+  }
+
   + .article {
     margin-top: 10px;
   }

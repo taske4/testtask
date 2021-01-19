@@ -4,11 +4,6 @@
   padding: 30px 176px 50px 30px;
   background: #fff;
 }
-@media (max-width: 767.98px) {
-  .article {
-    padding: 1em 2em 1em;
-  }
-}
 .article + .article {
   margin-top: 10px;
 }

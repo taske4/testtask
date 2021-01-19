@@ -1,0 +1,7 @@
+.articles {
+    margin-top: 50px;
+}
+
+.article .article__detail {
+    text-decoration: none;
+}
